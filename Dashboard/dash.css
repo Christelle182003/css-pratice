@@ -1,0 +1,104 @@
+
+*{
+    box-sizing: 0;
+}
+    
+body{
+    width: 100%;
+    background-color: whitesmoke;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.sidebar{
+    width: 242px;
+    height: 900px;
+    background-color: #f5f1f1;
+    flex-basis: 15%;
+}
+.container-principal{
+    flex-basis: 85%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+} 
+
+.icon{
+    padding-left: 10px;
+    background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat left;
+    background-size: 20px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: #e6e3e3;
+
+}
+
+/* nav{
+    display: flex;
+    justify-content: space-between;
+} */
+
+.image{
+    width: 60px;
+    border-radius: 30px;
+}
+
+.right{
+    display: flex;
+    gap: 20px;
+}
+
+.img-text{
+    display: flex;
+}
+
+.line-1{
+    display: flex;
+}
+
+.line-2{
+    display: flex;
+}
+
+.title{
+    display: flex;
+}
+
+.t-employees{
+    display: flex;
+}
+
+.t-request{
+    display: flex;
+}
+
+.anouncement-1{
+    display: flex;
+}
+
+.anouncement-2{
+    display: flex;
+}
+
+.container{
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+}
+
+.bottom-section-title{
+    display: flex;
+}
+
+.priority-container{
+    display: flex;
+}
