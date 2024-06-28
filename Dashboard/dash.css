@@ -5,9 +5,9 @@
     
 body{
     width: 100%;
-    background-color: whitesmoke;
+    background-color: #ffffff;
     float: left;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
 }
 
@@ -22,30 +22,54 @@ body{
     height: 900px;
     background-color: #f5f1f1;
     flex-basis: 15%;
+    padding: 15px;
+    position: fixed;
+    overflow-y: hidden;
 }
+
+.icon-sidebar{
+    padding-right: 15px;
+}
+
+.main-menu p{
+    color: #686868;
+}
+
+.other p{
+    color: #686868;
+}
+
 .container-principal{
     flex-basis: 85%;
+    padding-left: 250px;
 }
 
 .header{
     display: flex;
     justify-content: space-between;
+    margin: 10px 70px;
 } 
 
+hr{
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 0;
+}
+
 .icon{
+    width: 343px;
+    height: 44px;
+    border-radius: 4px;
+    border: 1px solid #E0E0E0;
     padding-left: 10px;
     background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat left;
     background-size: 20px;
     background-position: right;
     background-repeat: no-repeat;
-    background-color: #e6e3e3;
+    background-color: #FAFAFA;
 
 }
 
-/* nav{
-    display: flex;
-    justify-content: space-between;
-} */
 
 .image{
     width: 60px;
@@ -57,35 +81,15 @@ body{
     gap: 20px;
 }
 
+.icon-2-container{
+    padding-top: 15px;
+}
+
+.text h4{
+    padding-left: 10px;
+}
+
 .img-text{
-    display: flex;
-}
-
-.line-1{
-    display: flex;
-}
-
-.line-2{
-    display: flex;
-}
-
-.title{
-    display: flex;
-}
-
-.t-employees{
-    display: flex;
-}
-
-.t-request{
-    display: flex;
-}
-
-.anouncement-1{
-    display: flex;
-}
-
-.anouncement-2{
     display: flex;
 }
 
@@ -93,12 +97,279 @@ body{
     display: flex;
     width: 85%;
     justify-content: space-between;
+    margin: 20px 70px;
+}
+
+.left{
+    flex-basis: 75%;
+}
+
+.line-1{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 75%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.position{
+    width: 170px;
+    height: 136px;
+    /* top: 166px;
+    left: 293px; */
+    /* padding: 15px 15px; */
+    padding-top: 0;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    gap: 16px;
+    border-radius: 10px;
+    opacity: 0px;
+    background-color:  #FFEFE7;
+;
+;
+    ;
+
+}
+
+.job{
+    width: 170px;
+    height: 136px;
+    /* top: 166px;
+    left: 293px; */
+    padding: 0 15px 30px 15px;
+    gap: 16px;
+    border-radius: 10px;
+    opacity: 0px;
+    background-color: #E8F0FB;
+}
+
+.new{
+    width: 170px;
+    height: 136px;
+    /* top: 166px;
+    left: 293px; */
+    padding: 0 15px 30px 15px;
+    gap: 16px;
+    border-radius: 10px;
+    opacity: 0px;
+    background-color:  #FDEBF9;
+;
+}
+
+.line-2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 15px;
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.t-employees{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-top: 10px;
+    flex-basis: 37.5%;
+    border-radius: 05px;
+    border: 1px solid rgb(202, 202, 202);
+    padding: 10px;
+}
+
+.graph-1{
+    padding-top: 30px;
+}
+
+
+
+.t-request{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-top: 10px;
+    flex-basis: 37.5%;
+    border-radius: 05px;
+    border: 1px solid rgb(202, 202, 202);
+    padding: 10px;
+}
+
+.line-3{
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 05px;
+    margin: 15px;
+    padding: 15px;
+
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+
+#ville{
+    margin-top: 15px;
+    margin-right: 15px;
+    width: 145px; 
+    height: 27px;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 05px
+}
+
+
+
+.anouncement-1{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FAFAFA;
+    padding: 05px 15px;
+    border-radius: 05px;
+    margin-bottom: 10px ;
+}
+
+.anouncement-2{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FAFAFA;
+    padding: 05px 15px;
+    border-radius: 05px;
+    margin-bottom: 10px;
+}
+
+.anouncement-3{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FAFAFA;
+    padding: 02px 15px;
+    border-radius: 05px;
+    margin-bottom: 10px;
+}
+
+.sell{
+    background-color: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    color: #FF5151;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    border-radius: 05px;
+    font-size: 12px;
+}
+
+.sell-2{
+    background-color: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    color: #FF5151;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    border-radius: 05px;
+    font-size: 12px; 
+}
+
+.Riight{
+    padding-top: 67px;
+    flex-basis: 45%;
+    margin-left: 15px;
+}
+
+
+.top-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #161E54;
+    color: #ffffff;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.top-section-title{
+    flex-basis: 100%;
+}
+
+.top-section h5{
+    background-color: #1B204A;
+    padding: 10px;
+    /* width: 97%; */
+    margin: 0;
+    border-radius: 10px;     
+}
+
+.top-section-container{
+    margin: 10px;
+}
+
+.top-section-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0;
+}
+
+.btn{
+    background-color:  #FF5151;
+    width:  139px;
+    height: 38px;
+    /* padding: 0 16px 10px 16px; */
+    margin-top: 04px;
+    gap: 10px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    color: #ffffff;
+    font-weight: 600;
+
+}
+
+.bottom-section{
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 05px;
+    margin-top: 40px;
+    padding: 10px;
 }
 
 .bottom-section-title{
     display: flex;
+    justify-content: space-between;
+}
+
+#date{
+    margin-top: 15px;
+    background-color: transparent;
+    border-color:  rgb(202, 202, 202);
+    border-radius: 05px;
 }
 
 .priority-container{
     display: flex;
+    justify-content: space-between;
+    background-color: #FAFAFA;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 05px;
 }
+
+.other-cont-1{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FAFAFA;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 05px;
+    margin-bottom: 10px;
+}
+
+.other-cont-2{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FAFAFA;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 05px;
+}
+
