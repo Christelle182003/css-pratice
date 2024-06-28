@@ -11,39 +11,42 @@
         <div class="form-heading">
             <h2>Contact us</h2>
         </div>
-        <form action="">
-            <div class="line-1">
-                <div class="line-1-1">
-                    <h5>first name*</h5>
-                    <input class="this-input" type="text" name="first-name" id="first-name">
+        <div class="container">
+            <form action="">
+                <div class="line-1">
+                    <div class="line-1-1">
+                        <h5>first name*</h5>
+                        <input class="this-input" type="text" name="first-name" id="first-name">
+                    </div>
+                    <div class="line-1-2">
+                        <h5>last name*</h5>
+                        <input class="this-input" type="text" name="last-name" id="last-name">
+                    </div>
                 </div>
-                <div class="line-1-2">
-                    <h5>last name*</h5>
-                    <input class="this-input" type="text" name="last-name" id="last-name">
+                <div class="line-2">
+                    <h5>email adress</h5>
+                    <input id="email-input" type="email" name="email" id="email">
                 </div>
-            </div>
-            <div class="line-2">
-                <h5>email adress</h5>
-                <input id="email-input" type="email" name="email" id="email">
-            </div>
-            <div class="line-3">
-                <div class="line-3-heading">
-                    <h5>Query Type</h5>
+                <div class="line-3">
+                    <div class="line-3-heading">
+                        <h5>Query Type</h5>
+                    </div>
+                    <div class="line-3-1">
+                        <label class="input-radio-1" for="General Enquiry"><input type="radio" name="Enquiry" value="General Enquiry" id="Enquiry">General Enquiry</label>
+                        <label class="input-radio-2" for="Support Request"><input type="radio" name="Support" value="Support Enquiry" id="Suppor">Support Request</label>
+                    </div>
                 </div>
-                <div class="line-3-1">
-                    <label class="input-radio-1" for="General Enquiry"><input type="radio" name="Enquiry" value="General Enquiry" id="Enquiry">General Enquiry</label>
-                    <label class="input-radio-2" for="Support Request"><input type="radio" name="Support" value="Support Enquiry" id="Suppor">Support Request</label>
+                <div class="line-4">
+                    <h5>Message</h5>
+                    <textarea name="Message" id="Message"></textarea>
                 </div>
-            </div>
-            <div class="line-4">
-                <h5>Message</h5>
-                <textarea name="Message" id="Message"></textarea>
-            </div>
-            <div class="line-5">
-                <input type="checkbox" name="consent" id="consent"><label for="">I consent to being contacted by the team</label>
-            </div>
-            <button class="btn">Submit</button>
-        </form>
+                <div class="line-5">
+                    <input type="checkbox" name="consent" id="consent"><label for="">I consent to being contacted by the team</label>
+                </div>
+                <button class="btn">Submit</button>
+            </form>
+        </div>
+        
     </section>
 </body>
 </html>

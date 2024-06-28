@@ -4,19 +4,25 @@ body{
     justify-content: center;
     background-color: #a4aec5;
     font-family: 'karla';
-    overflow-x: hidden;
+    overflow: hidden;
+    margin: 0;
 }
 .form{
     padding: 20px;
     background-color: #ffffff;
     /* width: 450px; */
     border-radius: 20px;
+    overflow: hidden;
+    max-width: 100%; /*New ajouT*/
     
 }
 
+.container{
+}
+
 form{
-    padding-left: 35px;
     overflow-x: hidden;
+    margin-left: 10px;
 
 }
 .form-heading{
@@ -90,6 +96,23 @@ button{
     .body{
         overflow-x: hidden;
     }
+
+    .form{
+        padding: 20px;
+        background-color: #ffffff;
+        /* width: 450px; */
+        border-radius: 20px;
+        margin-top: 70px;
+        max-width: 100%; /*NEW AJOUT    */
+        
+    }
+
+    form{
+        padding-left: 30px;
+        overflow-x: hidden;
+        margin-left: 0;
+    
+    }
     .line-1{
         display: flex;
         flex-direction: column;
@@ -124,5 +147,75 @@ button{
     button{
         width: 320px;
     }
+
+    .this-input, #email-input, .input-radio-1, .input-radio-2, textarea, button {
+        width: 320px; /* Modification de la largeur */
+        max-width: 100%; /* Limite maximale pour éviter l'overflow */
+    }
 }
+
+@media (max-width: 403px){
+    .body{
+        overflow-x: hidden;
+    }
+
+    .form{
+        padding: 8px;
+        background-color: #ffffff;
+        /* width: 450px; */
+        border-radius: 20px;
+        margin-top: 90px;
+        margin-left: 10px;
+        margin-right: 10px;
+        max-width: 100%; /*NEW AJOUT    */
+        
+    }
+
+    form{
+        padding-left: 30px;
+        overflow-x: hidden;
+        margin-left: 0;
+    
+    }
+    .line-1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .this-input{
+        width: 40px;
+    }
+
+    #email-input{
+        width: 20px;
+    }
+
+    .line-3-1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input-radio-1{
+        width: 40px;
+    }
+
+    .input-radio-2{
+        width: 320px;
+    }
+
+    textarea{
+        width: 320px;
+        height: 100px;
+    }
+
+    button{
+        width: 320px;
+    }
+
+    .this-input, #email-input, .input-radio-1, .input-radio-2, textarea, button {
+        width: 275px; /* Modification de la largeur */
+        max-width: 100%; /* Limite maximale pour éviter l'overflow */
+    }
+}
+
 

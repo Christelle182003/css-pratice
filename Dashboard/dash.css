@@ -373,3 +373,34 @@ hr{
     border-radius: 05px;
 }
 
+@media(min-width: 480px) and (max-width: 834px){
+
+    *{
+        overflow: hidden;
+    }
+    body{
+        width: 824px;
+        background-color: #ffffff;
+        float: left;
+        font-family: 'Poppins', sans-serif;
+        overflow: hidden;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        /* justify-content: space-between; */
+        margin: 20px 70px;
+    }
+
+    .Riight{
+        padding-top: 67px;
+        /* flex-basis: 45%; */
+        margin-left: 15px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+
+
+    }
+}
